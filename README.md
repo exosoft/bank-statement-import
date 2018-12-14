@@ -4,17 +4,19 @@
 OCA bank statement import modules for Odoo
 ==========================================
 
-This repository hosts:
-* a 9.0 backport of the account_bank_statement_import modules from the master branch
-* additionnal parsers and import features inspired by v7.0 branch from https://github.com/OCA/bank-payment and https://github.com/OCA/bank-statement-reconcile
+This repository hosts additionnal parsers and import features inspired by v7.0 branch from https://github.com/OCA/bank-payment and https://github.com/OCA/bank-statement-reconcile
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[account_bank_statement_import_camt](account_bank_statement_import_camt/) | 9.0.1.0.0 | CAMT Format Bank Statements Import
+[account_bank_statement_import_camt](account_bank_statement_import_camt/) | 9.0.1.0.1 | CAMT Format Bank Statements Import
+[account_bank_statement_import_camt_details](account_bank_statement_import_camt_details/) | 9.0.1.0.0 | CAMT Debitor Details Bank Statements Import
+[account_bank_statement_import_move_line](account_bank_statement_import_move_line/) | 9.0.1.0.0 | Bank statement import move lines
 [account_bank_statement_import_qif](account_bank_statement_import_qif/) | 9.0.1.0.0 | Import QIF Bank Statements
+
 
 Unported addons
 ---------------
@@ -35,8 +37,8 @@ Translation Status
 
 ----
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose 
-mission is to support the collaborative development of Odoo features and 
+OCA, or the Odoo Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 http://odoo-community.org/
